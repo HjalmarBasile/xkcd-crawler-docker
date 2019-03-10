@@ -1,0 +1,7 @@
+---
+version: '3'
+services:
+  xkcd-crawler:
+    build: .
+    volumes:
+      - ./xkcd_pics:/tmp/xkcd_pics
